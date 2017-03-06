@@ -1,0 +1,72 @@
+[
+  {
+    "name": "show_help",
+    "tags": [
+      "dummy-intent", "test", "delete-me"
+    ],
+    "messages": [
+      "Ich raff es nicht",
+      "Komme nicht dahiner",
+      "Das ist nicht zu verstehen"
+    ],
+    "response": "Bitte drücken Sie sich etwas spezifischer aus. Können Sie das Problem eingrenzen?"
+  },
+  {
+    "name": "not_receiving_sms_tan",
+    "tags": [
+      "SMS TAN", "TAN", "technical issue"
+    ],
+    "messages": [
+      "Leider kommt keine TAN über SMS bei mir an",
+      "Ich kriege keine SMS TAN auf mein Handy",
+      "Eigentlich sollte ich eine TAN per SMS kriegen, aber es kommt keine an"
+    ],
+    "response": "Sie erhalten Ihre SMS-TAN nicht? Da kann man was machen..."
+  },
+  {
+    "name": "receiving_invalid_sms_tan",
+    "tags": [
+      "SMS TAN", "TAN", "technical issue"
+    ],
+    "messages": [
+      "Die SMS TAN, die ich bekomme, ist leider nicht gültig",
+      "Wenn ich die SMS TAN, die ich bekomme, eingebe, dann funktioniert sie nicht",
+      "Die TAN auf meinem Handy geht nicht. Ich habe sie mehrmals als SMS angefordert"
+    ],
+    "response": "Sie erhalten eine ungültige SMS-TAN? Das lässt sich ändern..."
+  },
+  {
+    "name": "information_request_tan",
+    "tags": [
+      "TAN", "information request"
+    ],
+    "messages": [
+      "Ich weiß nichy, wie das TAN-Verfahren funktioniert. Könnten Sie das bitte erklären",
+      "Wie soll ich das TAN-verfahren verstehen? Das ist so kompliziert.",
+      "Ich benötige Informationen zu Ihrem TAN-Verfahren! Bitte erläutern sie es mir!"
+    ],
+    "response": "Sie möchten wissen wie das TAN-Verfahren funktioniert? Dann spitzen Sie mal die Ohren..."
+  },
+  {
+    "name": "information_request_sms_tan",
+    "tags": [
+      "SMS TAN", "TAN", "information request"
+    ],
+    "messages": [
+      "Lieber Kundenservice, ich verstehe das SMS-TAN-Verfahren nicht. Wie verhält es sich damit, wozu dient es. Bitte informieren sie mich darüber.",
+      "Vor kurzer Zeit habe ich mich für das von Ihnen angebotene TAN-Verfahren entschieden. Leider bin ich technisch etwas unbeholfen und weiß nicht, wie ich dieses genau anwenden soll. Könnten Sie mir hierzu bitte eine kurze Einleitung zusenden, um mir die Vorgehensweise zu erläutern?"
+    ],
+    "response": "Sie möchten wissen wie das SMS-TAN-Verfahren funktioniert? Dann passen sie mal auf..."
+  },
+  {
+    "name": "receiving_invalid_sms_tan_mobile",
+    "tags": [
+      "SMS TAN", "TAN", "technical issue", "mobile phone verification"
+    ],
+    "messages": [
+      "Lieber Kundenservice, ich habe ein Problem mit der SMS-TAN. Meine Verfikationc per SMS-TAN des Mobiltelefons funktioniert nicht. Bitte helfen sie mir.",
+      "Sehr geehrte Damen und Herren, bei der Verifikation des Mobiltelefons erhalte ich eine Fehlermeldung. Das Mobiltelefon lässt sich per SMS-TAN nicht verifizieren, sodass ich leider keine Überweisungen tätigen kann. Bitte beheben Sie diesen Fehler kurzfristig."
+    ],
+    "response": "Sie versuchen Ihr Mobiltelefon zu verifizieren aber die SMS-TAN, die Sie erhalten, ist ungültig? Das liegt üblicherweise daran, dass..."
+  }
+]

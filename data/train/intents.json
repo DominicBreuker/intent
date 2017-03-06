@@ -1,0 +1,99 @@
+[
+  {
+    "name": "show_help",
+    "tags": [
+      "dummy-intent", "test", "delete-me"
+    ],
+    "messages": [
+      "Ich verstehe nicht",
+      "Das kapier ich nicht",
+      "Ich nix verstehen",
+      "Das ist zu hoch für mich",
+      "Ich finde das unlogisch",
+      "Das ist völlig unverständlich",
+      "Wie soll das funktionieren",
+      "Hä?",
+      "Öhm?",
+      "Was?",
+      "??????"
+    ],
+    "response": "Bitte drücken Sie sich etwas spezifischer aus. Können Sie das Problem eingrenzen?"
+  },
+  {
+    "name": "not_receiving_sms_tan",
+    "tags": [
+      "SMS TAN", "TAN", "technical issue"
+    ],
+    "messages": [
+      "Bei mir kommen keine sms tans auf dem handy an. Ich habe schon 5 Minuten gewartet.",
+      "Ich emfange leider keine TANs auf meinem Mobiltelefon. Woran könnte das wohl liegen?",
+      "Das Online-Banking tool sagt mir, ich würde eine TAN aufs Handy bekommen. Da kommt aber nix",
+      "Leider kommen keine SMS TAN bei mir an. Wie kann ich meine Überweisung ausführen?",
+      "Ihre Software sagt mir, dass sie eine sms tan an mich schicken würde. Das tut sie aber nicht!",
+      "Eine tan sollte eigentlich per sms an mein Smartphone geschickt werden. Gibt es hier eine technische Störung ihrerseits?",
+      "Lieber Kundenservice, ich habe mehrmals die SMS-TANs angeforgert, leider kommen diese bei mir nicht an. Meine Nummer ist 0170/xxx. Bitte schicken sie mir diese erneut zu.",
+      "Sehr geehrte Damen und Herren, ich nutze seit kurzer Zeit das SMS-TAN-System für Online-Überweisungen. Leider kommen die TAN's nicht auf meinem Handy an, obwohl die richtige Nummer hinterlegt ist. Ich bitte um Klärung dieses Problems und um Rückmeldung.",
+      "Sehr geehrte Damen und Herren, ich habe ein Problem mit meinem SMS-TAN System. Es scheint alles richtig eingerichtet zu sein, aber die SMS welche eine TAN enthalten sollen, kommen nicht auf meinem Handy an! Ich bitte hiermit um Ihre Unterstützung bei der Behebung dieses Problems und bedanke mich im Voraus für jede Hilfe die Sie mir bieten können. Mit freundlichen Grüßen Max Mustermann",
+      "Guten Tag! Ich wollte soeben eine Überweisung tätigen. Eine SMS-TAN wurde mir allerdings nicht zugesendet. Ich möchte Sie bitten, umgehend nach dem Fehler zu suchen, damit ich meine Bankgeschäfte ausführen kann."
+    ],
+    "response": "Sie erhalten Ihre SMS-TAN nicht? Da kann man was machen..."
+  },
+  {
+    "name": "receiving_invalid_sms_tan",
+    "tags": [
+      "SMS TAN", "TAN", "technical issue"
+    ],
+    "messages": [
+      "Jede SMS TAN die ich von ihnen bekomme ist ungültig. Ich kann aktuell keine Überweisung ausführen!",
+      "Ihr System schickt mir regelmäßig SMS TAN, die es dann nicht akzeptiert. Bitte beheben sie dieses Problem schnellstmöglich.",
+      "Ich bekomme zwar tans auf mein Handy geschickt, aber jedesmal, wenn ich die verwenden will, sagt ihr System, die TAN sei nicht gültig.",
+      "Ich habe jetzt schon 5 tan versucht und keine hat funktioniert. Wie soll ich so meine persönlichen Daten ändern?",
+      "Wenn ich versuche, mein Kreditkartenlimit zu erhöhen, fragt mich ihr System nach einer TAN. Wenn ich die TAN dann eingebe, wird sie aber nicht akzeptiert. Bitte lösen sie das!",
+      "Keine der von ihnen zugeschickten tans hat bisher funktioniert. Ist dieses Problem bald behoben. Ich habe dringende Geschäfte zu erledigen!",
+      "Lieber Kundenservice, ich erhielt eine ungültige SMS-TAN. Ich habe sie einmal eingeben und erhielt die Meldung sie sei ungültig. Bitte schicken sie mir eine gültige SMS-TAN.",
+      "Hallo, leider habe ich ein Problem mit dem SMS-TAN-System Ihres Hauses. Zwar erhalte ich die TAN per SMS problemlos, jedoch wird mir nach Eingabe der TAN die Meldung gezeigt, dass diese ungültig sei. Freundlicherweise bitte ich den Fehler zu beheben.",
+      "Sehr geehrte Damen und Herren, ich habe ein Problem mit meinem SMS-TAN System. Es scheint alles richtig eingerichtet zu sein, aber ich erhalte nur SMS mit ungültigen TANs, ich habe es mehrmals versucht und das Online-Banking Portal meldet jedes mal, dass die eingegebene TAN ungültig ist! Ich bitte hiermit um Ihre Unterstützung bei der Behebung dieses Problems und bedanke mich im Voraus für jede Hilfe die Sie mir bieten können. Mit freundlichen Grüßen Max Mustermann",
+      "Guten Tag! Ich wollte gerade eine Überweisung ausführen. Die von Ihnen zugesendete SMS-TAN funktioniert jedoch nicht. Bitte prüfen Sie, woran das liegt!"
+    ],
+    "response": "Sie erhalten eine ungültige SMS-TAN? Das lässt sich ändern..."
+  },
+  {
+    "name": "information_request_tan",
+    "tags": [
+      "TAN", "information request"
+    ],
+    "messages": [
+      "Lieber Kundenservice, ich benötige Informationen zu ihren TAN-Verfahren. Ich habe vor, eine Überweisung ins Ausland zu tätigen. Bitte senden sie mir Informationen.",
+      "Hallo, gerne würde ich in Zukunft auf das TAN-Verfahren zurückgreifen. Leider kann ich nirgendwo etwas über die unterschiedlichen Verfahren in Ihrem Haus finden. Ich bitte mir freundlicherweise Informationsbroschüren zukommen zu lassen oder ein persönliches Beratungsgespräch zu vereinbaren.",
+      "Sehr geehrte Damen und Herren, ich wollte gerne wissen welche TAN-Verfahren Sie bei Ihrer Bank anbieten. Mir sind drei gebräuchliche Verfahren wie Chip-TAN, SMS-TAN und die großen TAN-Listen die man in Papierform erhält bekannt. Wenn Sie das Chip-TAN verfahren anbieten, würde ich dies möglicherweise in naher Zukunft gerne bei Ihnen einrichten. Ich bitte hiermit um ausführliche Informationen zu diesem Thema und bedanke mich im Voraus für jede Hilfe die Sie mir bieten können. Mit freundlichen Grüßen Max Mustermann",
+      "Sehr geehrte Damen und Herren! Ich möchte künftig das Online-Banking nutzen. Ich konnte leider keine Informationen finden, welche TAN-Verfahren die Bank einsetzt. Bitte senden Sie mir entsprechende Informationen dazu!"
+    ],
+    "response": "Sie möchten wissen wie das TAN-Verfahren funktioniert? Dann spitzen Sie mal die Ohren..."
+  },
+  {
+    "name": "information_request_sms_tan",
+    "tags": [
+      "SMS TAN", "TAN", "information request"
+    ],
+    "messages": [
+      "Lieber Kundenservice, ich verstehe das SMS-TAN-Verfahren nicht. Wie verhält es sich damit, wozu dient es. Bitte informieren sie mich darüber.",
+      "Vor kurzer Zeit habe ich mich für das von Ihnen angebotene TAN-Verfahren entschieden. Leider bin ich technisch etwas unbeholfen und weiß nicht, wie ich dieses genau anwenden soll. Könnten Sie mir hierzu bitte eine kurze Einleitung zusenden, um mir die Vorgehensweise zu erläutern?",
+      "Sehr geehrte Damen und Herren, ich wollte gerne wissen wie das SMS-TAN-Verfahren genau funktioniert. Ich nehme an man bekommt diese sogenannten TANs per SMS und kann diese dann im Online-Banking Portal zur Verifikation von Transaktionen eingeben. Aber was steckt hinter diesem System, wie sicher ist es und wie fordert man eine solche SMS-TAN an? Ich bitte hiermit um ausführliche Informationen zu diesem Thema und bedanke mich im Voraus für jede Hilfe die Sie mir bieten können. Mit freundlichen Grüßen Max Mustermann",
+      "Werte Mitarbeiter! Ich würde gern das Online-Banking nutzen. Allerdings ist mir unklar, wie das mit den SMS-TANs funktioniert. Was muss ich da tun? Könnten Sie mich bitte aufklären? Danke!"
+    ],
+    "response": "Sie möchten wissen wie das SMS-TAN-Verfahren funktioniert? Dann passen sie mal auf..."
+  },
+  {
+    "name": "receiving_invalid_sms_tan_mobile",
+    "tags": [
+      "SMS TAN", "TAN", "technical issue", "mobile phone verification"
+    ],
+    "messages": [
+      "Lieber Kundenservice, ich habe ein Problem mit der SMS-TAN. Meine Verfikationc per SMS-TAN des Mobiltelefons funktioniert nicht. Bitte helfen sie mir.",
+      "Sehr geehrte Damen und Herren, bei der Verifikation des Mobiltelefons erhalte ich eine Fehlermeldung. Das Mobiltelefon lässt sich per SMS-TAN nicht verifizieren, sodass ich leider keine Überweisungen tätigen kann. Bitte beheben Sie diesen Fehler kurzfristig.",
+      "Sehr geehrte Damen und Herren, ich habe ein Problem mit meinem SMS-TAN System. Die Verifikation meines Handys per SMS-TAN funktioniert nicht! Ich bitte hiermit um Ihre Unterstützung bei der Behebung dieses Problems und bedanke mich im Voraus für jede Hilfe die Sie mir bieten können. Mit freundlichen Grüßen Max Mustermann",
+      "Liebe Bank-Mitarbieter! Für die Teilnahme am Online-Banling soll ich mein Handy verifizieren lassen. Das mit der SMS-TAN klappt aber nicht, obwohl ich mich an die Anweisungen gehalten habe. Könnten Sie mir bitte helfen? Ich verstehe es einfach nicht. Vielen Dank!"
+    ],
+    "response": "Sie versuchen Ihr Mobiltelefon zu verifizieren aber die SMS-TAN, die Sie erhalten, ist ungültig? Das liegt üblicherweise daran, dass..."
+  }
+]
