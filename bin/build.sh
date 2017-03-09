@@ -11,3 +11,5 @@ echo "building Docker image in folder $PROJECT_ROOT"
 docker build -f $PROJECT_ROOT/Dockerfile \
              -t dominicbreuker/spacy_intent:latest \
              $PROJECT_ROOT
+
+#docker rmi $(docker images -f "dangling=true" -q)

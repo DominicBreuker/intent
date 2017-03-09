@@ -1,72 +1,141 @@
 [
   {
     "name": "show_help",
-    "tags": [
-      "dummy-intent", "test", "delete-me"
-    ],
     "messages": [
-      "Ich raff es nicht",
-      "Komme nicht dahiner",
-      "Das ist nicht zu verstehen"
-    ],
-    "response": "Bitte drücken Sie sich etwas spezifischer aus. Können Sie das Problem eingrenzen?"
+      "Sag mir was du tun kannst"
+    ]
   },
   {
-    "name": "not_receiving_sms_tan",
-    "tags": [
-      "SMS TAN", "TAN", "technical issue"
-    ],
+    "name": "contact_methods_phone",
     "messages": [
-      "Leider kommt keine TAN über SMS bei mir an",
-      "Ich kriege keine SMS TAN auf mein Handy",
-      "Eigentlich sollte ich eine TAN per SMS kriegen, aber es kommt keine an"
-    ],
-    "response": "Sie erhalten Ihre SMS-TAN nicht? Da kann man was machen..."
+      "Wie kann ich sie per Telefon kontaktieren?"
+    ]
   },
   {
-    "name": "receiving_invalid_sms_tan",
-    "tags": [
-      "SMS TAN", "TAN", "technical issue"
-    ],
+    "name": "contact_methods_email",
     "messages": [
-      "Die SMS TAN, die ich bekomme, ist leider nicht gültig",
-      "Wenn ich die SMS TAN, die ich bekomme, eingebe, dann funktioniert sie nicht",
-      "Die TAN auf meinem Handy geht nicht. Ich habe sie mehrmals als SMS angefordert"
-    ],
-    "response": "Sie erhalten eine ungültige SMS-TAN? Das lässt sich ändern..."
+      "Die Email-Adresse bitte"
+    ]
   },
   {
-    "name": "information_request_tan",
-    "tags": [
-      "TAN", "information request"
-    ],
+    "name": "make_appointment",
     "messages": [
-      "Ich weiß nichy, wie das TAN-Verfahren funktioniert. Könnten Sie das bitte erklären",
-      "Wie soll ich das TAN-verfahren verstehen? Das ist so kompliziert.",
-      "Ich benötige Informationen zu Ihrem TAN-Verfahren! Bitte erläutern sie es mir!"
-    ],
-    "response": "Sie möchten wissen wie das TAN-Verfahren funktioniert? Dann spitzen Sie mal die Ohren..."
+      "Ich würde gerne einen Termin vor Ort in Ihrer Filiale ausmachen!"
+    ]
   },
   {
-    "name": "information_request_sms_tan",
-    "tags": [
-      "SMS TAN", "TAN", "information request"
-    ],
+    "name": "find_nearest_branch",
     "messages": [
-      "Lieber Kundenservice, ich verstehe das SMS-TAN-Verfahren nicht. Wie verhält es sich damit, wozu dient es. Bitte informieren sie mich darüber.",
-      "Vor kurzer Zeit habe ich mich für das von Ihnen angebotene TAN-Verfahren entschieden. Leider bin ich technisch etwas unbeholfen und weiß nicht, wie ich dieses genau anwenden soll. Könnten Sie mir hierzu bitte eine kurze Einleitung zusenden, um mir die Vorgehensweise zu erläutern?"
-    ],
-    "response": "Sie möchten wissen wie das SMS-TAN-Verfahren funktioniert? Dann passen sie mal auf..."
+      "Ich suche eine Filiale in meiner Nähe"
+    ]
   },
   {
-    "name": "receiving_invalid_sms_tan_mobile",
-    "tags": [
-      "SMS TAN", "TAN", "technical issue", "mobile phone verification"
-    ],
+    "name": "sepa_information",
     "messages": [
-      "Lieber Kundenservice, ich habe ein Problem mit der SMS-TAN. Meine Verfikationc per SMS-TAN des Mobiltelefons funktioniert nicht. Bitte helfen sie mir.",
-      "Sehr geehrte Damen und Herren, bei der Verifikation des Mobiltelefons erhalte ich eine Fehlermeldung. Das Mobiltelefon lässt sich per SMS-TAN nicht verifizieren, sodass ich leider keine Überweisungen tätigen kann. Bitte beheben Sie diesen Fehler kurzfristig."
-    ],
-    "response": "Sie versuchen Ihr Mobiltelefon zu verifizieren aber die SMS-TAN, die Sie erhalten, ist ungültig? Das liegt üblicherweise daran, dass..."
+      "Können Sie mir wohl sagen, was eine SEPA Überweisung ist?"
+    ]
+  },
+  {
+    "name": "tan_information",
+    "messages": [
+      "Welche TAN-Verfahren bietet Ihre Bank an?"
+    ]
+  },
+  {
+    "name": "product_info_all",
+    "messages": [
+      "Welche Produkte bietet Ihre Bank an. Bitte geben Sie mir eine Übersicht!"
+    ]
+  },
+  {
+    "name": "product_info_loan",
+    "messages": [
+      "Ich benötige einen Kredit! Was können Sie mir anbieten?"
+    ]
+  },
+  {
+    "name": "product_info_account",
+    "messages": [
+      "Ich bin auf der Suche nach einen Girokonto. Haben Sie sowas?"
+    ]
+  },
+  {
+    "name": "product_info_credit_card",
+    "messages": [
+      "Beinhaltet ihr Girokonto eine Kreditkarte?"
+    ]
+  },
+  {
+    "name": "account_fees",
+    "messages": [
+      "Was muss ich für ein Konto bei ihnen an Gebühren zahlen?"
+    ]
+  },
+  {
+    "name": "guide_account_opening",
+    "messages": [
+      "Ich würde gern ein Konto in ihrem Haus eröffnen. Wie geht das?"
+    ]
+  },
+  {
+    "name": "guide_card_blocking",
+    "messages": [
+      "Hilfe! Meine Kreditkarte wurde geklaut! Wie kann ich die sperrren?"
+    ]
+  },
+  {
+    "name": "guide_mobile_banking",
+    "messages": [
+      "Ich würde mein Konto gerne mobil mit dem Handy nutzen. Was muss ich dafür tun?"
+    ]
+  },
+  {
+    "name": "request_branch_banking",
+    "messages": [
+      "Obwohl ich mich per Chat melde muss ich gestehen, dass mir das Digitale nicht so liegt. Ich bin da eher der Klassiker unter den Kunden. Kann ich bei ihnen auch in die Filiale kommen?"
+    ]
+  },
+  {
+    "name": "guide_get_loan",
+    "messages": [
+      "Ich brauche dringend eine Finanzspritze. Können sie mir aus der Patsche helfen?"
+    ]
+  },
+  {
+    "name": "account_switching_support",
+    "messages": [
+      "Ich würde mein Girokonto gerne zu Ihnen umziehen. Können Sie mich dabei unterstützen?"
+    ]
+  },
+  {
+    "name": "online_banking_security",
+    "messages": [
+      "Im Internet herrschen ja anarchische Zustände. Wie sicher ist Ihr Online-Banking System?"
+    ]
+  },
+  {
+    "name": "risk_money_loss",
+    "messages": [
+      "Heutzutage fallen die Banken ja wie die Fliegen? Was passiert mit meinem Geld, wenn sie pleite gehen?"
+    ]
+  },
+  {
+    "name": "guide_kyc",
+    "messages": [
+      "Sie haben mich dazu aufgefordert, im Rahmen einer Kontoeröffnung das PostIdent-Verfahren zu durchlaufen? Ich habe einen Brief erhalten, weiß aber nicht, was ich jetzt tun soll."
+    ]
+  },
+  {
+    "name": "update_personal_info",
+    "messages": [
+      "Meine Adresse hat sich geändert. Das würde ich Ihnen gern mitteilen."
+    ]
+  },
+  {
+    "name": "request_account_balance",
+    "messages": [
+      "Wie ist mein Kontostand?"
+    ]
   }
+
 ]

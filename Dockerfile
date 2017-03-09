@@ -8,4 +8,8 @@ RUN pip install -U pip && \
 RUN python -m spacy.en.download all && \
     python -m spacy.de.download all
 
+RUN pip install 'Flask==0.10.1'
+
 COPY intent/ /intent/
+
+WORKDIR /
